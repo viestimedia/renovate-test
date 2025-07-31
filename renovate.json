@@ -1,11 +1,4 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended"],
-  "hostRules": [
-    {
-      "matchHost": "https://npm.pkg.github.com/",
-      "hostType": "npm"
-    }
-  ],
-  "npmrc": "@viestimedia:registry=https://npm.pkg.github.com/"
+  "extends": ["config:recommended"]
 }
