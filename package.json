@@ -9,6 +9,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@viestimedia/clib": "^3.0.0",
     "aws-cdk-lib": "2.200.0",
     "esbuild": "0.25.8"
   }
