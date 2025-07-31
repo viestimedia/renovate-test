@@ -1,5 +1,18 @@
 # renovate-test
 
+**Update**
+
+So it turns out that the GitHub app does NOT automatically get access to a
+repository's private packages. [See this discussion](https://github.com/renovatebot/renovate/discussions/37232)
+You need to create a Personal Access Token (PAT) in GitHub and add that as
+a secret to Renovate and then add a `hostRules` configuration to `renovate.json`.
+This repository is now an example a working setup of that.
+
+In addition to the settings in this repository you need to create a
+Personal Access Token in GitHub and [add that token as a secret in Renovate](https://docs.renovatebot.com/mend-hosted/credentials/).
+
+**Original**
+
 This repository demonstrates a problem with the Mend Renovate GitHub App.
 
 The documentation for Renovate states that you do not need to add any
