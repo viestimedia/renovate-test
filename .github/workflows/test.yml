@@ -1,5 +1,6 @@
 name: Try npm ci
-
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 on:
   pull_request:
     branches:
