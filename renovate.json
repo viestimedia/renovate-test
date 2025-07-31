@@ -4,9 +4,9 @@
   "npmrc": "@viestimedia:registry=https://npm.pkg.github.com/",
   "hostRules": [
     {
-      "matchHost": "https://npm.pkg.github.com/",
+      "matchHost": "npm.pkg.github.com/",
       "hostType": "npm",
-      "token": "{secrets.GITHUB_TOKEN}"
+      "token": "{{ secrets.GITHUB_TOKEN }}"
     }
   ]
 }
